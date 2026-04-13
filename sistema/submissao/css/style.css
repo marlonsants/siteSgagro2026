@@ -1,0 +1,30 @@
+body{
+	margin-top: 5px;
+	background-color: #FAF6F5;
+}
+
+.jumbotron{
+	border: 1px solid #999;
+    box-shadow: -0px -0px 45px #999;
+/*margin-left:30%;
+width: 450px;
+ height: 150px;
+ background: url('../images/SGAGRO LOGO.png') no-repeat;
+ background-size: 450px 150px;*/
+}
+
+
+.panel-default>.panel-heading {
+    color: #FFF;
+    background-color: #A8C660;
+    border-color: #ddd;
+}
+
+
+#form_submissao{
+	margin-top: 0px;
+}
+
+#btnconfcad{
+	margin-bottom: 30px;
+}

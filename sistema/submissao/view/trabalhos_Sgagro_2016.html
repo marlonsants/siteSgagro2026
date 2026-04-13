@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trabalhos Sgagro 2016</title>
+	<meta charset="UTF-8">
+	<link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css" ></link>
+    <link type="text/css" rel="stylesheet" href="../css/style.css" ></link>
+	<script src="../js/jquery-2.1.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</head>
+<body class="container-fluid">
+	<div class="row" id="trabalhos"></div>
+</body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+				var env = {};
+				
+				$.ajax({
+		            type: "POST",
+		            url: "../controller/ACAO/buscaTrabalhos2016.php",
+		            data: env,
+		            dataType : 'json',
+		            success: function(data){
+		                console.log(data);
+		                var linha = '';
+		                $.each(data,function(key,val){
+		                	
+		                	linha += "<a href='http://sgagro.web1335.kinghost.net/sitesgagro/sistema/submissao/Trabalhos2016/"+val['idartigo']+".pdf'> http://sgagro.web1335.kinghost.net/sitesgagro/sistema/submissao/Trabalhos2016/"+val['idartigo']+".pdf </a>";
+
+		                });
+		                $('#trabalhos').append(linha);
+		             
+
+		            }, error: function(data) {
+		                	console.log(data);
+		               		
+		            	}
+		    		});
+				});
+			</script>

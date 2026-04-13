@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trabalhos Sgagro 2017</title>
+	<meta charset="UTF-8">
+	<link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css" ></link>
+    <link type="text/css" rel="stylesheet" href="../css/style.css" ></link>
+	<script src="../js/jquery-2.1.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</head>
+<body class="container-fluid">
+	<div class="row" id="trabalhos"></div>
+</body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+				var env = {};
+				
+				$.ajax({
+		            type: "POST",
+		            url: "../controller/ACAO/buscaTrabalhos2017.php",
+		            data: env,
+		            dataType : 'json',
+		            success: function(data){
+		                console.log(data);
+		                var linha = '';
+		                $.each(data,function(key,val){
+		                	if(val['idartigo'] != ''){
+		                		linha += "<a href='http://sgagro.web1335.kinghost.net/sitesgagro/view/visualizartrabalhoAtual.php?id="+val['idartigo']+" '> http://sgagro.web1335.kinghost.net/sitesgagro/view/visualizartrabalhoAtual.php?id="+val['idartigo']+" </a></br>";
+		                	}
+
+		                });
+		                $('#trabalhos').append(linha);
+		             
+
+		            }, error: function(data) {
+		                	console.log(data);
+		               		
+		            	}
+		    		});
+				});
+			</script>

@@ -1,0 +1,12 @@
+Erros:
+
+(Arrumado)1° O banco esta registrando todos os avalidores com id_avaliador=0 (confirmar se é isso mesmo)
+2° Mudar o caminho do link do email que esta errado (esta http://www.sgagro.org/Simposio/submissao ao inves de sgagro.org/sitesgagro/sistema/submissao).
+3° Os dados do cadastro que fiz com o nosso email foram duplicados no banco tanto na tabela caduso quanto em avaliador
+4° Da para inserir html no inputs (e talves fazer sql inject, testei na area do cadastro do artigo mas acredido que iss oseja possivel em outros inpusts do programa)
+5° Ao terminar o cadastro ele não exibe o artigo que cadastrei (pode ser por causa da duplicação ou por causa do html que coloquei no inputs).
+6° Ao tentar logar novamente com o mesmo usuario ele me retorna para a tela das regras de publicação ao invés da tela dos artigos ou de avalidor (Esse pode ser tambem por causa da duplicação)
+7º Página de Contato do site não está enviando e-mail e está dando como inexistente.
+8º Ao Cadastrar um novo usuario não estou recebendo o email de confirmação de cadastro
+
+PS: Estou usando e E-MAIL da empresa jr e fiz o cadastro como avaliador/autor

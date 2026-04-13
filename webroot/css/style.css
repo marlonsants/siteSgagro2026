@@ -1,0 +1,16 @@
+ .table th{
+ 	background-color: #b5cf79;
+ 	color: black;
+ 	font-size: 16px;
+ }
+
+ .alert-success{
+ 	font-weight: bold
+ }
+
+ .btn-primary{
+ 	background-color:  #b5cf79;
+ 	border-color: #b5cf79;
+ 	color: black;
+ 	font-weight: bold;
+ }
