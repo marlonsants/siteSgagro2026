@@ -16,12 +16,26 @@ $escreve =fwrite($abre, $ss);
 <style type="text/css">
   .bannerHome{
     padding: 0px;
-    margin-left: -5px:
+    margin-left: -15px;
+    margin-right: -15px;
+    width: auto;
+    overflow: hidden;
+    height: calc(100vh - 50px);
+    background-color: transparent;
+  }
+  .bannerHome a{
+    text-align: center;
+    display: block;
     width: 100%;
-    
+    height: 100%;
+    line-height: 0;
   }
   .bannerHome img{
-    height: 95%
+    display: block;
+    width: auto;
+    height: 100%;
+    max-width: none;
+    margin: 0 auto;
   }
   #widgets{
     margin-top: 50px;
@@ -34,35 +48,11 @@ $escreve =fwrite($abre, $ss);
   }
 
   #bannerHome{
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    margin-right: auto;
-    margin-left: auto;
-    content: url('../webroot/images/bannerSiteSgagro2025_2.jpeg'); /* Altere a imagem por padrão */
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
   }
-
-
-/* Tela até 800px */
-@media (max-width: 980px) {
-    #bannerHome {
-      content: url('../webroot/images/banner_retrato_sgagro2025_retrato_2.jpeg');
-    }
-}
-
-/* Tela até 768px */
-@media (max-width: 768px) {
-    #bannerHome {
-      content: url('../webroot/images/banner_retrato_sgagro2025_retrato_2.jpeg');
-    }
-}
-
-/* Tela até 480px */
-@media (max-width: 480px) {
-    #bannerHome {
-        content: url('../webroot/images/banner_retrato_sgagro2025_retrato_2.jpeg');
-    }
-}
 
   
 </style>
@@ -79,7 +69,7 @@ $escreve =fwrite($abre, $ss);
     <!-- <p id="tamanhoTela"></p> -->
     <div class="row bannerHome" >
       
-        <a href="submissao.php">  <img class="img-responsive" id="bannerHome" src="../webroot/images/bannerSiteSgagro2025_2.jpeg"> </a>
+        <a href="submissao.php">  <img class="img-responsive" id="bannerHome" src="../webroot/images/imagemFundoHomeSgagro.png"> </a>
       
     </div>
 
@@ -127,12 +117,32 @@ $escreve =fwrite($abre, $ss);
    span{font-weight: bold;}
  </style>
 
- <script>
+  <script>
+  function ajustarAlturaBanner() {
+    var menu = document.getElementById('nav-main');
+    var banner = document.querySelector('.bannerHome');
+
+    if (!banner) {
+      return;
+    }
+
+    var alturaMenu = menu ? menu.offsetHeight : 50;
+    var alturaJanela = window.innerHeight || document.documentElement.clientHeight || screen.height;
+    var alturaBanner = alturaJanela - alturaMenu;
+
+    if (alturaBanner > 0) {
+      banner.style.height = alturaBanner + 'px';
+    }
+  }
+
   function obterTamanhoTela() {
     const largura = window.innerWidth || document.documentElement.clientWidth || screen.width;
     const altura = window.innerHeight || document.documentElement.clientHeight || screen.height;
     return { largura, altura };
   }
+
+  window.addEventListener('load', ajustarAlturaBanner);
+  window.addEventListener('resize', ajustarAlturaBanner);
 
   // const tamanhoTela = obterTamanhoTela();
   // console.log(`Largura: ${tamanhoTela.largura}px, Altura: ${tamanhoTela.altura}px`);
