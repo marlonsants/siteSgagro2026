@@ -1,19 +1,4 @@
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Simpósio de Gestão do Agronegócio">
-  <meta name="keywords" content="SGAgro, Agronegócios, Faculdade de Ciências Agrárias e Veterinárias, Universidade Estadual Paulista (FCAV/UNESP), FCAV, UNESP, Gestão do Agronegócio,Simpósio em Gestão do Agronegócio, Simpósio, UNESP: Câmpus de Jaboticabal, Jaboticabal, Trabalhos em PDF, Artigos">
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
-  <link rel="shortcut icon" href="../webroot/images/SGAGRO_LOGO.ico" type="image/x-icon"/>
-  <link href="../webroot/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../webroot/css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="../webroot/js/bootstrap.min.js"></script>
-  <title>SGAgro</title>
-  <style type="text/css">
+<style type="text/css">
     body{
       margin-top:0px;
       margin-bottom: 0px;
@@ -272,7 +257,6 @@
       }
     }
   </style>
-</head>
 <div class="row">
   <nav id="nav-main" class="navbar navbar-inverse">
       <div class="navbar-header">
@@ -315,8 +299,8 @@
               <li class="nav-item"><a class="nav-link" href="edit2020.php">EDIÇÃO 2020</a></li>
               <li class="nav-item"><a class="nav-link" href="edit2019.php">EDIÇÃO 2019</a></li>
               <li class="nav-item"><a class="nav-link" href="edit2018.php">EDIÇÃO 2018</a></li>
-              <li class="nav-item"><a class="nav-link" href="anais.php?id=edicoes">EDIÇÃO 2017</a></li>
-              <li class="nav-item"><a class="nav-link" href="edicaoant.php?id=edicoes">EDIÇÃO 2016</a></li>
+              <!-- <li class="nav-item"><a class="nav-link" href="anais.php?id=edicoes">EDIÇÃO 2017</a></li>
+              <li class="nav-item"><a class="nav-link" href="edicaoant.php?id=edicoes">EDIÇÃO 2016</a></li> -->
             </ul>
           </li>
 
@@ -330,7 +314,7 @@
     </nav>
   </div> 
  
-  <script type="text/javascript">
+<script type="text/javascript">
   $(document).ready(function(){
     var status = "<?php echo isset($_GET['id']) ? $_GET['id'] : ''; ?>";
     if(status){
@@ -340,6 +324,4 @@
 
   });
 </script>
-
-<body>
 <a style="display: none" href='https://br.freepik.com/fotos/flor'>Flor foto criado por wirestock - br.freepik.com</a>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<?php include_once("page_head.php"); ?>
 <style type="text/css">
 	body{
 		background:

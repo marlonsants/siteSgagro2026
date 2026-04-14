@@ -484,6 +484,8 @@ $escreve =fwrite($abre, $ss);
 <!DOCTYPE html>
 <html>
 
+<?php include_once("page_head.php"); ?>
+
 <body>
 
   <div class="container-fluid">

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<?php include_once("page_head.php"); ?>
 
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
