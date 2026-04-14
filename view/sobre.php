@@ -21,36 +21,21 @@
     <article class="text-justify">
         <h3>Evento</h3>
 
-        <p>O Simpósio em Gestão do Agronegócio é organizado pelo Programa de
-         Pós-Graduação em Administração junto a Faculdade de Ciências Agrárias e
-         Veterinárias da Universidade Estadual Paulista “Júlio de Mesquita
-       Filho”(FCAV/UNESP).</p>
+        <p>O Simpósio em Gestão do Agronegócio (SGAgro) é promovido pelo Programa de Pós-Graduação em Administração, em parceria com a Faculdade de Ciências Agrárias e Veterinárias da Universidade Estadual Paulista "Júlio de Mesquita Filho" (FCAV/UNESP).</p>
 
-       <p>Este evento tem como objetivo integrar a academia com o mercado, a partir
-         de um ambiente para difusão de conhecimento técnico-científico na área de
-         Gestão do Agronegócio. O SGAgro proporciona um ambiente voltado à formação
-         de redes de relacionamentos universidade-empresa e qualificação de
-       recursos humanos nas atividades empresariais do agronegócio.</p>
+        <p>Desde sua criação, em 2015, o SGAgro se consolidou como um espaço qualificado para o debate de temas estratégicos relacionados à gestão do agronegócio, conectando a produção acadêmica às demandas reais do setor.</p>
 
-       <p>O público alvo do evento compreende profissionais e pesquisadores na área
-        do agronegócio que demandam fóruns para discussão de técnicas e processos
-      de gestão que possam incrementar a competitividade organizacional.</p>
+        <p>O evento tem como propósito central integrar universidade e mercado, promovendo a difusão de conhecimento técnico-científico e estimulando a discussão de práticas e ferramentas de gestão capazes de elevar a competitividade das organizações do agro. Além disso, o simpósio favorece a formação de redes de relacionamento entre pesquisadores e profissionais, contribuindo para a qualificação de recursos humanos e o desenvolvimento do setor.</p>
 
-      <p>Em 2024 o evento irá para a sua 9ª edição e
-       contará com diferentes espaços para discussão de temas ligados à gestão do
-     Agronegócio (palestras, apresentações de trabalho e workshops).</p>
-     <br>
+        <p>O público do SGAgro é composto por pesquisadores, profissionais e agentes do agronegócio que buscam um ambiente estruturado para a troca de experiências e a análise de soluções voltadas à melhoria dos processos de gestão e à geração de valor nas organizações.</p>
 
-     <h3>Programa de Pós-Graduação em Administração - G.O. Agro</h3>
-     <p>A FCAV está localizada no município de Jaboticabal/SP sendo um importante
-       centro na formação de profissionais e no desenvolvimento de pesquisas nos
-     seus 5 cursos de graduação e 11 de pós-graduação (mestrado e doutorado).</p>
+        <h3>Programa de Pós-Graduação em Administração - G.O. Agro</h3>
 
-     <p>O Programa de Pós-Graduação em Administração (Mestrado Profissional) foi
-      recomendado pela CAPES em 2014 e iniciou suas atividades em 2015 com área
-    de concentração em Gestão de Organizações Agroindustriais.</p>
+        <p>O Programa de Mestrado Profissional em Administração da FCAV - UNESP nasceu da necessidade crescente de formação qualificada para profissionais e organizações que atuam no agronegócio, um dos pilares econômicos do interior paulista e do Brasil.</p>
 
+        <p>Com foco em pesquisas aplicadas, o Mestrado Profissional em Administração capacita gestores a resolverem problemas complexos de suas organizações e a desenvolverem soluções inovadoras para o setor. O equilíbrio entre teoria e prática permite que sejam fomentadas competências técnicas e estratégicas indispensáveis à gestão contemporânea do agronegócio.</p>
 
+        <p>Desde sua criação em 2015, o programa vem construindo uma reputação de excelência no ensino, pesquisa e extensão, tornando-se referência na formação de profissionais que desejam impulsionar o agronegócio brasileiro.</p>
   </article>
 
   <!-- <div class="text-justify" style="margin-top: 100px"> 

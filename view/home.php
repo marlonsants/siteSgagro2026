@@ -504,28 +504,13 @@ $escreve =fwrite($abre, $ss);
 
         <div class="widget-intro">
           <div>
-            <span class="widget-kicker">Conexao SGAgro</span>
-            <h2 class="widgets-heading">Conteudo social e comunidade reunidos em uma unica experiencia.</h2>
+            <span class="widget-kicker">Conexão SGAgro</span>
+            <h2 class="widgets-heading">Conteúdo social e comunidade reunidos em uma unica experiencia.</h2>
             <p class="widgets-subtitle">Acompanhe os destaques mais recentes do evento e veja como a audiencia do SGAgro continua crescendo a cada nova edicao.</p>
           </div>
         </div>
 
         <div class="widget-row">
-
-      <!-- <div class="col-md-4 col-xs-12" style="border-radius: 15px">
-        <div class="col-md-12">
-                  
-          <div class="row">
-            <div class="fb-page" data-href="https://www.facebook.com/sgagrounesp/" data-tabs="timeline" data-width="400" data-height="607" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/sgagrounesp/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/sgagrounesp/">SGAgro</a></blockquote></div>
-          </div>
-
-          <div class="row" style="background-color:white; width: 400px; border-radius: 0px 0px 5px 5px ">
-            <div class="fb-comments" data-href="https://www.facebook.com/SGAgro-164350053919134/?fref=ts" data-numposts="2"></div>  
-          </div>
-
-        </div>
-        
-      </div>   -->
 
       <div class="col-md-6 col-xs-12 widget-col widget-col-instagram">
         <div class="widget-card widget-instagram">
