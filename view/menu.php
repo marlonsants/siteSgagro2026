@@ -275,8 +275,8 @@
           <li id="sobre" class="nav-item"><a class="nav-link" href="sobre.php?id=sobre">SOBRE</a></li>
           <li id="datas" class="nav-item"><a class="nav-link" href="datasimportantes.php?id=datas">DATAS IMPORTANTES</a></li>
           <li id="submissao" class="nav-item"><a class="nav-link" href="submissao.php?id=submissao">SUBMISSÃO</a></li>
+          <li id="inscricao" class="nav-item"><a class="nav-link" href="inscricao.php?id=inscricao">INSCRIÇÃO</a></li>
           <li id="resultado" class="nav-item"><a class="nav-link" href="http://sistema.sgagro.org/resultado/evento" target="_blank" >RESULTADOS</a></li>
-          
 
           <li class="dropdown" id="evento">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EVENTO <span class="glyphicon glyphicon-menu-down nav-icon"></span></a>
@@ -303,8 +303,7 @@
               <li class="nav-item"><a class="nav-link" href="edicaoant.php?id=edicoes">EDIÇÃO 2016</a></li> -->
             </ul>
           </li>
-
-          <li id="inscricao" class="nav-item"><a class="nav-link" href="inscricao.php?id=inscricao">INSCRIÇÃO</a></li>
+          
           <li id="apresentacoes" class="nav-item"><a class="nav-link" href="apresentacoes.php?id=apresentacoes">APRESENTAÇÕES</a></li> 
           <li id="contato" class="nav-item"><a class="nav-link" href="contato.php?id=contato">CONTATO</a></li>
           <li id="login" class="nav-item"><a class="nav-link" href="http://sistema.sgagro.org" target="_blank">LOGIN</a></li>
