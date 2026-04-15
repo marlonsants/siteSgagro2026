@@ -479,7 +479,151 @@ $escreve =fwrite($abre, $ss);
     margin: 0;
   }
 
-  
+  /* ── Hero mobile ── */
+  .mobile-hero{
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(160deg, #1a3a09 0%, #274d13 45%, #3f6f1d 100%);
+    padding: 48px 20px 40px;
+    text-align: center;
+  }
+
+  .mobile-hero-deco{
+    position: absolute;
+    top: -60px;
+    right: -60px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgba(181, 207, 121, 0.12);
+    pointer-events: none;
+  }
+
+  .mobile-hero-deco:after{
+    content: '';
+    position: absolute;
+    bottom: -80px;
+    left: -100px;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: rgba(76, 119, 34, 0.10);
+  }
+
+  .mobile-hero-inner{
+    position: relative;
+    z-index: 1;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .mobile-hero-edition{
+    display: inline-block;
+    padding: 5px 14px;
+    border-radius: 999px;
+    background: rgba(181, 207, 121, 0.20);
+    border: 1px solid rgba(181, 207, 121, 0.35);
+    color: #d4e89a;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+
+  .mobile-hero-label{
+    margin: 0 0 4px;
+    color: rgba(255,255,255,0.65);
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .mobile-hero-acronym{
+    margin: 0 0 22px;
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -1px;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  }
+
+  .mobile-hero-theme-box{
+    position: relative;
+    margin: 0 0 22px;
+    padding: 16px 18px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(181, 207, 121, 0.20);
+    text-align: left;
+  }
+
+  .mobile-hero-theme-quote{
+    display: block;
+    color: #b5cf79;
+    font-size: 32px;
+    line-height: 1;
+    margin-bottom: 4px;
+    font-family: Georgia, serif;
+  }
+
+  .mobile-hero-theme{
+    margin: 0;
+    color: rgba(255,255,255,0.90);
+    font-size: 14px;
+    line-height: 1.65;
+    font-style: italic;
+  }
+
+  .mobile-hero-date-badge{
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 18px;
+    border-radius: 999px;
+    background: #4c7722;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 18px;
+  }
+
+  .mobile-hero-coordinator{
+    margin: 0 0 26px;
+    color: rgba(255,255,255,0.70);
+    font-size: 13px;
+    line-height: 1.55;
+  }
+
+  .mobile-hero-coordinator strong{
+    color: rgba(255,255,255,0.90);
+    font-weight: bold;
+  }
+
+  .mobile-hero-btn{
+    display: inline-block;
+    padding: 13px 28px;
+    border-radius: 999px;
+    background: #b5cf79;
+    color: #1a3a09;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    transition: background 0.2s ease, transform 0.15s ease;
+  }
+
+  .mobile-hero-btn:hover,
+  .mobile-hero-btn:focus{
+    background: #c8de96;
+    color: #1a3a09;
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
 </style>
 <!DOCTYPE html>
 <html>
@@ -494,10 +638,32 @@ $escreve =fwrite($abre, $ss);
 
 
     <!-- <p id="tamanhoTela"></p> -->
-    <div class="row bannerHome" >
+    <div class="row bannerHome hidden-xs hidden-sm" >
       
         <a href="submissao.php">  <img class="img-responsive" id="bannerHome" src="../webroot/images/imagemFundoHomeSgagro.png"> </a>
       
+    </div>
+
+    <!-- Hero mobile: visível apenas em xs e sm -->
+    <div class="visible-xs-block visible-sm-block mobile-hero">
+      <div class="mobile-hero-deco"></div>
+      <div class="mobile-hero-inner">
+        <span class="mobile-hero-edition">XI Edição · 2026</span>
+        <p class="mobile-hero-label">SIMPÓSIO EM GESTÃO NO AGRONEGÓCIO</p>
+        <h1 class="mobile-hero-acronym">SGAGRO</h1>
+        <div class="mobile-hero-theme-box">
+          <span class="mobile-hero-theme-quote">&ldquo;</span>
+          <p class="mobile-hero-theme">Tema - Cooperar para Competir: O Cooperativismo como Estratégia de Geração de Valor no Agronegócio</p>
+        </div>
+        <div class="mobile-hero-date-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          19 e 20 de Agosto de 2026
+        </div>
+        <p class="mobile-hero-coordinator">
+          <strong>Coordenadora Geral:</strong> Profa. Dra. Lesley Carina do Lago Attadia Galli
+        </p>
+        <a href="submissao.php" class="mobile-hero-btn">Submeter Trabalho</a>
+      </div>
     </div>
 
     <div class="row" id="widgets">
