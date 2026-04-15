@@ -299,8 +299,8 @@
               <li class="nav-item"><a class="nav-link" href="edit2020.php">EDIÇÃO 2020</a></li>
               <li class="nav-item"><a class="nav-link" href="edit2019.php">EDIÇÃO 2019</a></li>
               <li class="nav-item"><a class="nav-link" href="edit2018.php">EDIÇÃO 2018</a></li>
-              <!-- <li class="nav-item"><a class="nav-link" href="anais.php?id=edicoes">EDIÇÃO 2017</a></li>
-              <li class="nav-item"><a class="nav-link" href="edicaoant.php?id=edicoes">EDIÇÃO 2016</a></li> -->
+              <li class="nav-item"><a class="nav-link" href="anais.php?id=edicoes">EDIÇÃO 2017</a></li>
+              <li class="nav-item"><a class="nav-link" href="edicaoant.php?id=edicoes">EDIÇÃO 2016</a></li>
             </ul>
           </li>
           
