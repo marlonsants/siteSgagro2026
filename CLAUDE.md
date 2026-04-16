@@ -45,7 +45,7 @@
 ### Root-Level Commands
 
 - Start local site through XAMPP Apache.
-- Open the site at its configured local URL, typically `http://localhost/siteSgagro2026/` or the virtual host in use.
+- Open the site at its configured local URL, typically `http://localhost:8081/siteSgagro2026/` or the virtual host in use.
 - Validate one PHP file: `php -l view/home.php`
 - Validate multiple edited PHP files: `php -l path/to/file.php`
 - Validate all PHP files from a shell with ripgrep: `rg --files -g "*.php" | % { php -l $_ }`
@@ -89,24 +89,6 @@
 - Do not treat these as the main project workflow.
 - Only use them if you are intentionally editing the embedded vendor code.
 
-### `sistema/submissao/plugin/mask`
-
-- Install deps: `npm install`
-- Run plugin tests: `grunt test`
-- This is a vendored jQuery mask plugin, not the main website.
-
-### `sistema/submissao/Chart.js-master`
-
-- Install deps: `npm install`
-- Build vendor bundle: `gulp build`
-- Run vendor checks: `gulp test`
-- This is an embedded Chart.js source tree, not the main website.
-
-### `sistema/submissao/js/tests`
-
-- Contains Bootstrap/QUnit test assets.
-- Open manual test runner: `sistema/submissao/js/tests/index.html`
-- These are framework tests, not application tests for SGAgro.
 
 ## Code Style Guidelines
 
