@@ -673,8 +673,8 @@ $escreve =fwrite($abre, $ss);
         <div class="widget-intro">
           <div>
             <span class="widget-kicker">Conexão SGAgro</span>
-            <h2 class="widgets-heading">Conteúdo social e comunidade reunidos em uma unica experiencia.</h2>
-            <p class="widgets-subtitle">Acompanhe os destaques mais recentes do evento e veja como a audiencia do SGAgro continua crescendo a cada nova edicao.</p>
+            <h2 class="widgets-heading">Conteúdo social e comunidade reunidos em uma única experiência.</h2>
+            <p class="widgets-subtitle">Acompanhe os destaques mais recentes do evento e veja como a audiência do SGAgro continua crescendo a cada nova edição.</p>
           </div>
         </div>
 
@@ -700,8 +700,8 @@ $escreve =fwrite($abre, $ss);
           <?php
           echo "<div>
                   <span class='widget-label'>Comunidade em crescimento</span>
-                  <h2 class='widget-title'>Cada visita reforça a presenca do SGAgro no ambiente academico e profissional.</h2>
-                  <p class='widget-text'>O interesse pelo evento segue aumentando e a pagina inicial se torna um ponto de encontro para quem acompanha novidades, programacao e oportunidades de submissao.</p>
+                  <h2 class='widget-title'>Cada visita reforça a presença do SGAgro no ambiente acadêmico e profissional.</h2>
+                  <p class='widget-text'>O interesse pelo evento segue aumentando e a página inicial se torna um ponto de encontro para quem acompanha novidades, programação e oportunidades de submissão.</p>
                   <div class='widget-stat'>
                     <span class='widget-stat-label'>Acessos registrados nesta experiência digital</span>
                     <span class='text'>$a</span>
