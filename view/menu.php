@@ -273,6 +273,7 @@
 
           <li id="home" class="nav-item"><a class="nav-link" href="home.php?id=home">HOME</a></li>
           <li id="sobre" class="nav-item"><a class="nav-link" href="sobre.php?id=sobre">SOBRE</a></li>
+          <li id="institucional" class="nav-item"><a class="nav-link" href="institucional.php?id=institucional">INSTITUCIONAL</a></li>
           <li id="datas" class="nav-item"><a class="nav-link" href="datasimportantes.php?id=datas">DATAS IMPORTANTES</a></li>
           <li id="submissao" class="nav-item"><a class="nav-link" href="submissao.php?id=submissao">SUBMISSÃO</a></li>
           <li id="inscricao" class="nav-item"><a class="nav-link" href="inscricao.php?id=inscricao">INSCRIÇÃO</a></li>
